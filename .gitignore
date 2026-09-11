@@ -35,3 +35,8 @@ chk_*.jpg
 chk_*.png
 scratch_*
 *.zip
+
+# --- local working files, not part of the deliverable ----------------------
+brand/
+CLAUDE.md
+TASKS.md

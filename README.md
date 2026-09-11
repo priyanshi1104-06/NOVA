@@ -4,8 +4,6 @@
 
 Smart India Hackathon 2026 · Problem Statement **26037** (MathWorks) · Team Diamonds
 
-<img src="brand/nova_lockup.png" width="420" alt="NOVA">
-
 ---
 
 ## The problem
