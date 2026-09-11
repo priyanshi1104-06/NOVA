@@ -1,0 +1,37 @@
+# --- environment -----------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+
+# --- datasets --------------------------------------------------------------
+# IDD is 735 GB-scale on disk and redistributable only from IIIT Hyderabad.
+# scripts/idd_to_yolo.py regenerates the YOLO form from the original download.
+idd_yolo/
+idd_yolo.zip
+*.tar.gz
+
+# --- models that are not ours ---------------------------------------------
+# Ultralytics fetches the stock COCO checkpoint on first use; no need to vendor
+# it. best.pt (our IDD fine-tune) IS committed, because it is the result.
+yolov8n.pt
+weights/
+
+# --- training run artefacts ------------------------------------------------
+# The figures worth keeping were copied into results/; the rest is 24 MB of
+# intermediate batch previews and a duplicate of best.pt.
+runs/
+
+# --- large media -----------------------------------------------------------
+# Demo recordings are ~60 MB. Regenerate with day.ps1 / night.ps1, or attach
+# them to a GitHub Release rather than bloating every clone.
+*.mp4
+
+# --- presentation artefacts ------------------------------------------------
+*.pptx
+*.pdf
+
+# --- scratch ---------------------------------------------------------------
+chk_*.jpg
+chk_*.png
+scratch_*
+*.zip
