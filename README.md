@@ -4,6 +4,17 @@
 
 Smart India Hackathon 2026 · Problem Statement **26037** (MathWorks) · Team Diamonds
 
+![NOVA running on real dashcam footage from an Indian highway](docs/demo.gif)
+
+*Real dashcam footage, not simulation.* **Left:** the IDD-trained detector, with each box
+labelled class, confidence and estimated range. **Right:** the risk field one planning tick
+ahead — bright is hazardous, blue lines are predicted agent futures, grey is the route, green
+is the trajectory NOVA has chosen through them. The strip beneath carries speed, per-stage
+latency, live track count and the closest gap.
+
+Full clips: [daytime](../../releases/latest) · [night](../../releases/latest) ·
+[closed-loop in CARLA](../../releases/latest)
+
 ---
 
 ## The problem
